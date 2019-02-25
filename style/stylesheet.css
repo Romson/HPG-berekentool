@@ -1,11 +1,10 @@
 body {
     background-color: #e6aa4b;
     width: 90%;
-    margin: auto;
     margin-top: 60px;
 }
 
-#berekenTool {
+#cointainer, #berekenTool {
     text-align: center;
 }
 
@@ -13,7 +12,7 @@ body {
     float: left;
     width:45%;
     height: 450px;
-    background-image: url(http://127.0.0.1:5500/images/hpg.jpg);
+    background-image: url(/images/hpg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
@@ -64,13 +63,23 @@ img {
 }
 
 @media screen and (max-width: 900px) {
-    #divOne, #divTwo {
-      width: 80%;
+    body {
+        width: 100%;
     }
+    
     img {
         width: 70%;
     }
     button {
         width: 50%;
     }
+}
+
+@media screen and (max-width: 500px) {
+    #divOne {
+        width: 100%;
+        background-image: url(http://127.0.0.1:5500/images/hpg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
 }

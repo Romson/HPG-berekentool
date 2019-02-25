@@ -6,7 +6,7 @@ var clickButton = function clickButton() {
 };
 var templateOne = React.createElement(
     'section',
-    null,
+    { id: 'container' },
     React.createElement(
         'div',
         null,

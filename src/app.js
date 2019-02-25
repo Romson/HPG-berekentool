@@ -3,7 +3,7 @@ const clickButton = () => {
     alert('Word aan gewerkt')
 }
 const templateOne = (
-    <section>        
+    <section id="container">        
         <div>
             <div id="divOne">
             </div>
