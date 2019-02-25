@@ -1,11 +1,14 @@
 body {
     background-color: #e6aa4b;
-    width: 90%;
-    margin-top: 60px;
+    margin: auto;
 }
 
-#cointainer, #berekenTool {
-    text-align: center;
+section {
+    margin: 5%;
+}
+
+#berekenTool {
+    text-align: center !important;
 }
 
 #divOne {
@@ -62,24 +65,15 @@ img {
     padding: 20px;
 }
 
-@media screen and (max-width: 900px) {
-    body {
-        width: 100%;
-    }
-    
+@media screen and (max-width: 700px) {
+
+    #divOne, #divTwo {
+        width: 90vw;
+    }    
     img {
-        width: 70%;
+        width: 50%;
     }
     button {
         width: 50%;
     }
-}
-
-@media screen and (max-width: 500px) {
-    #divOne {
-        width: 100%;
-        background-image: url(http://127.0.0.1:5500/images/hpg.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
 }
