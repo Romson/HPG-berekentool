@@ -15,7 +15,7 @@ section {
     float: left;
     width:45%;
     height: 450px;
-    background-image: url(/images/hpg.jpg);
+    background-image: url(https://raw.githubusercontent.com/Romson/HPG-berekentool/master/images/hpg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
